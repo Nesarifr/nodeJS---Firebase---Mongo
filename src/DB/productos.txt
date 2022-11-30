@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Psidock",
+    "price": 50000,
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_psyduck-512.png",
+    "id": 2
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 3
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 4
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 5
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 6
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 7
+  },
+  {
+    "title": "Snitch Dorada",
+    "price": 300,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-color-2/64/golden-snitch-512.png",
+    "id": 8
+  }
+]

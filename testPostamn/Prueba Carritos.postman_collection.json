@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "af378dad-9a77-4962-80f8-605d6ce7a144",
+		"name": "Prueba Carritos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19741387"
+	},
+	"item": [
+		{
+			"name": "nuevo carrito vacio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nuevo producto en carrito",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"idproduct\": 3,\r\n        \"title\": \"Mjolnir\",\r\n        \"price\": 50000,\r\n        \"thumbnail\": \"https://cdn1.iconfinder.com/data/icons/medieval-7/128/medieval_hammer_barbarian_power_weapon-512.png\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtener los productos de un carrito especifico",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos/2/productos/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos",
+						"2",
+						"productos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cargar producto en un carrito especifico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"idproduct\": 4,\r\n        \"title\": \"Mjolniaasfr\",\r\n        \"price\": 241244212,\r\n        \"thumbnail\": \"https://cdn1.iconfinder.com/data/icons/medieval-7/128/medieval_hammer_barbarian_power_weapon-512.png\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos/2/productos/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos",
+						"2",
+						"productos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Elimina un carrito en especifico",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Elimina un producto especifico de un carrrito especifico",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/carritos/2/productos/4/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carritos",
+						"2",
+						"productos",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
